@@ -14,6 +14,10 @@ server.use(
 
 server.use(router);
 
+server.use((req, res, next) => {
+  res.status(404).json({ error: 'Rota não encontrada' });
+});
+
 server.listen(3000, () => {
   console.log('JSON Server is running');
 });
