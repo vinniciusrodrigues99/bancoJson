@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "json-server": "^0.14.2"
+  },
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "Fake REST API",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Vinni",
+  "license": "ISC"
+}
